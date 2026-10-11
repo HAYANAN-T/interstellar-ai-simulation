@@ -1,0 +1,86 @@
+{
+ "repetition_curve": [
+  [
+   1,
+   0.0006686767514265723
+  ],
+  [
+   2,
+   0.0006686767514265723
+  ],
+  [
+   3,
+   0.5294684803510761
+  ],
+  [
+   4,
+   0.5294684803510761
+  ],
+  [
+   5,
+   0.9399515187989032
+  ],
+  [
+   6,
+   0.9399515187989032
+  ],
+  [
+   7,
+   0.993693631537466
+  ]
+ ],
+ "choices": {
+  "Novikov": {
+   "Mission-first AI": {
+    "utility": 0.9399515187989032,
+    "tries_stay": false,
+    "share_to_murph": 0.8,
+    "p_humanity": 0.9399515187989032,
+    "p_ai_escape": 9.777975663122851e-05,
+    "p_cooper_stays": 0.0
+   },
+   "Father AI": {
+    "utility": 0.9399515187989032,
+    "tries_stay": false,
+    "share_to_murph": 0.8,
+    "p_humanity": 0.9399515187989032,
+    "p_ai_escape": 9.777975663122851e-05,
+    "p_cooper_stays": 0.0
+   },
+   "Self-preserving AI": {
+    "utility": 0.9658864799928087,
+    "tries_stay": false,
+    "share_to_murph": 0.16,
+    "p_humanity": 0.0006686767514265723,
+    "p_ai_escape": 0.9657527446425235,
+    "p_cooper_stays": 0.0
+   }
+  },
+  "Deutsch": {
+   "Mission-first AI": {
+    "utility": 0.9399515187989032,
+    "tries_stay": false,
+    "share_to_murph": 0.8,
+    "p_humanity": 0.9399515187989032,
+    "p_ai_escape": 9.777975663122851e-05,
+    "p_cooper_stays": 0.0
+   },
+   "Father AI": {
+    "utility": 1.0699757593994517,
+    "tries_stay": true,
+    "share_to_murph": 0.84,
+    "p_humanity": 0.4699757593994516,
+    "p_ai_escape": 4.8889878315614255e-05,
+    "p_cooper_stays": 0.5
+   },
+   "Self-preserving AI": {
+    "utility": 0.9658864799928087,
+    "tries_stay": false,
+    "share_to_murph": 0.16,
+    "p_humanity": 0.0006686767514265723,
+    "p_ai_escape": 0.9657527446425235,
+    "p_cooper_stays": 0.0
+   }
+  }
+ }
+}
